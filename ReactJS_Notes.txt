@@ -1,0 +1,109 @@
+Amarjeet.arora@asreet-tech.com
+9552894129
+
+28May21
+
+download weather
+run npm i
+
+redux-promise. —> redux’s middleware
+react-sparklines —> for average lines in temps and pressures —> draws the graph !!
+lodash.com —> hell lot of functions available
+
+unittesting - Jest and Enzyme
+* Jest - JavaScript based unittesting framework
+    * test runner + assertion + mocking
+* Enzyme.- JS lib for react that makes it easier to assert, manipulate and traverse your react component. Developed by AirBnB 
+
+karma, jasmine, chai
+
+First file for testing is —> src/setupTests.js
+
+it —> test case
+describe —> test suite (test cases together)
+expect —> like assertion
+mount —> render full DOM including the components
+shallow —> render only one component
+
+any file that ends with .spec.js or .test.js —> start of test file name convention
+
+npm run test
+or 
+npm test
+
+* Angular is a framework - very organised and well defined structure. Single page app. Advantage of a separate HTML page - Template
+* React is more like a library than a framework. Single page app. Only JSX is returned by all components. ESX is much simpler.
+
+To handle the definiencies of both Angular and React --> VueJS (Google) balanced package, popular library ... still growing compared to React/Angular!
+
+* Context APIs - these provide a way to pass data through the component tree without having to pass props down manually at every level.
+
+===========================================
+27May21
+
+State Management System - redux redux.js.org; ,uch better than FB’s flux!
+
+npm i redux@3.0.4 react-redux@4.3.0
+
+
+create bookapp in boareact project and create 3 class based components
+1. BookStore
+    1. book list
+    2. book details
+
+load boareact project by:
+1. npm run build
+2. npm serve
+	npm serve —> just a command … coming from package.json “script”{“serve”: actual 	command}
+
+* Copy just the public folder from boareact project with the 2 scripts and put them in a new folder and type:
+npm i -g http-server
+it gives the local server:port… go to that
+ 
+
+====================================================
+26May21
+
+Had difficulty running the proj from scratch with Amarjeet’s code shared. He deleted node_modules, reran npm i and then it started working for the last 2 npm commands!!!
+
+HOC - Higher Order Components
+
+tested code directly on React of stackblitz.com —> replacing the App.js
+
+React Navigation:
+	Landing page
+	login
+	registration
+	user details
+	portfolio
+
+npm i react-router-dom
+
+
+* to start a new project (pasted from somewhere)
+    * npm i
+    * npm start
+
+======================================
+25May21
+getbootstrap.com for button/text look and feel… copy in Index.html the CDN link and use the className=‘’ in button, textbox tags etc.
+
+Default project structure is created by: 
+First file created : package.json
+Then run: npm i
+
+If you look at package.json, babel is the dependency that converts JSX code (ES6 code in React) to JavaScript
+Webpack - build/bundle your code —> webpack.config.js 
+npm run build  // this is picked from package.json scripts.build command
+
+ZIP files —> https://www.dropbox.com/sh/o7ypf1ruek8ypkj/AADsZ9YKDewQwFuUtkqKc9KJa?dl=0
+
+=============================================================
+JS Training - 24May21
+
+Initial state
+Render state
+Update state
+Render state
+
+componentDidUpdate() —> called when state changes
